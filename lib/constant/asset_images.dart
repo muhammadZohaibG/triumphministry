@@ -1,0 +1,20 @@
+const splashImage = "assets/images/splashImage.png";
+// static const loginImage = "asset/images/login_image.png";
+// static const signUpImage = "asset/images/signup_image.png";
+const googleIcon = "assets/images/googleIcon.png";
+const facebookIcon = "assets/images/facebookIcon.png";
+const twitterIcon = "assets/images/twitter.png";
+const dp = "assets/images/dp.svg";
+const dp2 = "assets/images/profile.png";
+const bible = "assets/images/bible.png";
+const mission1 = "assets/images/mission1.png";
+const mission2 = "assets/images/mission2.png";
+const bgImage = "assets/images/bgImage.png";
+const missions2 = "assets/images/missions2.png";
+const missions1 = "assets/images/missions1.png";
+const unfav = "assets/images/unFav.svg";
+const cross = "assets/images/cross.svg";
+const back = "assets/images/backArrow.svg";
+
+const header = "assets/images/headerImage.png";
+const event1 = "assets/images/events1.png";
