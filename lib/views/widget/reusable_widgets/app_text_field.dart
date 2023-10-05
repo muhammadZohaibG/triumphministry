@@ -39,7 +39,7 @@ class AppTextField extends StatelessWidget {
       width: width,
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(15),
-          boxShadow: [BoxShadow(color: Colors.grey, blurRadius: 5)]),
+          boxShadow: [BoxShadow(color: Color.fromARGB(255, 224, 223, 223), blurRadius: 2)]),
       child: TextFormField(
         
         enabled: testFieldEnabled,

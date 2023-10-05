@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:triumph_ministry/views/pages/events/events.dart';
 import 'package:triumph_ministry/views/pages/home/component/tab_provider.dart';
+import 'package:triumph_ministry/views/pages/home/profile.dart';
 import 'package:triumph_ministry/views/pages/mission/our_mission.dart';
 import 'package:triumph_ministry/views/widget/big_divider.dart';
 import 'package:triumph_ministry/views/pages/home/component/home_tab.dart';
@@ -21,9 +22,12 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.whiteColor,
       appBar: AppBar(
+          iconTheme: IconThemeData(color: Colors.black),
+
           backgroundColor: AppColors.whiteColor,
           elevation: 0,
-          automaticallyImplyLeading: false,
+          // automaticallyImplyLeading: false,
+
           title: Row(
             children: [
               // Icon(
@@ -41,7 +45,11 @@ class HomeScreen extends StatelessWidget {
               // ),
 
               const Spacer(),
-              Image(image: AssetImage(dp2), height: 50,)
+              InkWell(
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => const ProfilePage()));
+                },
+                child: Image(image: AssetImage(dp2), height: 50,))
             ],
           )),
       drawer: AppDrawer(),
@@ -59,7 +67,7 @@ class HomeScreen extends StatelessWidget {
                 child: Stack(
                   clipBehavior: Clip.hardEdge,
                   children: [
-                    Image(image: AssetImage(bible),
+                    const Image(image: AssetImage(bible),
                      fit: BoxFit.cover,),
                     Container(
                       // height: SizeConfig.heightMultiplier* 26,

@@ -15,6 +15,6 @@ const missions1 = "assets/images/missions1.png";
 const unfav = "assets/images/unFav.svg";
 const cross = "assets/images/cross.svg";
 const back = "assets/images/backArrow.svg";
-
+const bibleG = "assets/images/godofpeace.png";
 const header = "assets/images/headerImage.png";
 const event1 = "assets/images/events1.png";
